@@ -12,7 +12,7 @@ publishing {
         create<MavenPublication>("AppsKitSDK") {
             groupId = "com.github.TalhaChaudhry"
             artifactId = "AppsKitSDK"
-            version = "1.0.5"
+            version = "1.0.6"
             artifact("$projectDir/libs/AppsKitSDK_v5000.aar")
         }
 
